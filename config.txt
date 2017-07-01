@@ -10,7 +10,7 @@ kernel=zImage
 
 # This, along with the Raspberry Pi "x" firmware is need for the camera
 # to work. See Target packages->Hardware handling->Firmware for "x" firmware.
-gpu_mem=192
+gpu_mem=256
 
 # Enable I2C and SPI
 dtparam=i2c_arm=on,spi=on
@@ -22,3 +22,8 @@ dtparam=i2c_arm=on,spi=on
 
 # Enable the UART (/dev/ttyS0) on the RPi3.
 enable_uart=1
+
+lcd_rotate=1
+
+display_rotate=1
+
